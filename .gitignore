@@ -1,0 +1,24 @@
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# Maven
+target/
+dependency-reduced-pom.xml
+
+# Generated test data
+cli-rapports/data/sales-*k.csv
+cli-rapports/data/sales-large.csv
+
+# Generated output reports
+cli-rapports/report.csv
+cli-rapports/report.md
+cli-rapports/report.txt
+cli-rapports/report-*.csv
+cli-rapports/report-*.md
+cli-rapports/report-*.txt
+
+# OS
+.DS_Store
+Thumbs.db
