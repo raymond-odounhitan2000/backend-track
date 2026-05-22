@@ -22,3 +22,23 @@ cli-rapports/report-*.txt
 # OS
 .DS_Store
 Thumbs.db
+
+# Spring Boot
+HELP.md
+*.original
+
+# Logs
+*.log
+logs/
+
+# Environment / secrets
+.env
+.env.local
+*.pem
+*.key
+
+# Eclipse / NetBeans
+.classpath
+.project
+.settings/
+bin/
